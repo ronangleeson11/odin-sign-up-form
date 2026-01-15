@@ -1,5 +1,42 @@
-@import "fonts.css";
+@import url("fonts.css");
 
-h1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    background-color: #4444;
+    margin-top: 25vh;
+    padding: 2vh;
+}
+
+.logo div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 4rem;
+}
+
+.logo h1 {
+    color: white;
     font-family: "Norse";
+    vertical-align: middle;
+    font-size: 3rem;  
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-col {
+    background-image: url("../images/plant.jpg");
+    flex: 1;
+}
+
+.right-col {
+    flex: 2;
 }
