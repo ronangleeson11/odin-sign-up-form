@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .logo {
     background-color: #4444;
@@ -39,4 +40,16 @@
 
 .right-col {
     flex: 2;
+}
+
+.right-top {
+    background-color: #EEE;
+}
+
+.right-mid {
+
+}
+
+.right-bot {
+    background-color: #EEE;
 }
