@@ -6,6 +6,20 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-col {
+    background-image: url("../images/plant.jpg");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}   
+
 .logo {
     background-color: #1118;
     margin-top: 25vh;
@@ -28,15 +42,14 @@
     font-size: 3rem;  
 }
 
-.container {
-    display: flex;
-    height: 100vh;
+.credit {
+    color: white;
+    font-size: 0.5rem;
+    margin: auto auto 2vh auto;
 }
 
-.left-col {
-    background-image: url("../images/plant.jpg");
-    background-size: cover;
-    flex: 1;
+.credit a {
+    color: white;
 }
 
 .right-col {
