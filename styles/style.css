@@ -71,6 +71,46 @@
 
 .right-mid {
     flex: 1;
+    padding-bottom: 2vh;
+}
+
+#sign-up {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sign-up h2 {
+    flex: 100%;
+    margin: 2vh 2vw;
+}
+
+#sign-up label {
+    flex: calc(50% - 4vw);
+    font-size: 0.75rem;
+    margin: 2vh 2vw;
+    color: darkslategray;
+}
+
+#sign-up input {
+    width: 66%;
+    border-color: lightgray;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+#sign-up :nth-child(2n + 3) {
+    position: relative;
+    left: -8vw;
+}
+
+#sign-up input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+#sign-up input:invalid {
+    outline: none;
+    border-color: red;
 }
 
 .right-bot {
