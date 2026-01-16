@@ -61,6 +61,12 @@
 .right-top {
     flex: 1;
     background-color: #EEE;
+    padding-top: 10vh;
+    font-weight: 600;
+}
+
+.right-top p {
+    margin: 2vw;
 }
 
 .right-mid {
@@ -70,4 +76,24 @@
 .right-bot {
     flex: 1;
     background-color: #EEE;
+}
+
+.right-bot button {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 2vh 4vw;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin: 4vh 2vw;
+}
+
+.right-bot p {
+    font-size: 0.75rem;
+    margin: 2vh 2vw;
+}
+
+.right-bot a {
+    color: darkolivegreen;
+    text-decoration: none;
 }
